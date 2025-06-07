@@ -43,6 +43,8 @@ To get started, you'll need Python 3. Follow these steps to set up the applicati
     ```bash
     pip install ttkbootstrap
     ```
+## Acknowledgements
+The initial concept for a GUI-based NAMD configuration tool was inspired by the work of shmoe6 on the [NAMD-Config-Generator repository](https://github.com/shmoe6/NAMD-Config-Generator). This project builds on that idea with added a modernized toolkit.
 
 ## How to Run
 
@@ -51,5 +53,3 @@ Once the requirement is installed, you can run the application with a single com
 ```bash
 python namd_conf_gui.py
 
-## Acknowledgements
-The initial concept for a GUI-based NAMD configuration tool was inspired by the work of shmoe6 on the [NAMD-Config-Generator repository](https://github.com/shmoe6/NAMD-Config-Generator). This project builds on that idea with added a modernized toolkit.
