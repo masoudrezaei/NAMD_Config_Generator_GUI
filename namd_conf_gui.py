@@ -476,7 +476,6 @@ wrapAll\t\t\t{on_off(self.vars['wrapAll'].get())}
 minimize\t\t{self.vars['minimize_steps'].get()}
 reinitvels\t\t$temperature
 run\t\t\t{self.vars['run_steps'].get()};
-END
 """
         try:
             with open(filepath, 'w') as f: f.write(config_str)
